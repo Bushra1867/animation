@@ -1,0 +1,715 @@
+.body{
+    height: 5000px;
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 100px;
+    animation-name: change ;
+    animation-duration: 6s ;
+    animation-iteration-count: 1;
+    animation-delay: 1s ;
+    position:absolute;
+    animation-direction: alternate; 
+    animation-fill-mode: both ;
+    animation-timing-function: ease-in;
+     /* */
+
+}
+
+@keyframes change {
+    0% {
+        left: 0;
+        background-color: red;
+    }
+    20% {
+        background-color: blueviolet;
+        border-radius: 80px;
+    }
+    40% {
+        background-color: black;
+        border-radius: 60px;
+    }
+    60% {
+        background-color: brown;
+        border-radius: 40px;
+    }
+    80% {
+        background-color: yellow;
+        border-radius: 20px;
+    }
+    100% {
+        background-color:green;
+        border-radius: 0px;
+        left: 1100px;
+    }
+}
+.div1:hover {
+    animation-play-state: paused ;
+
+}
+
+.div2 {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    position: absolute;
+    display: block;
+    top: 200px;
+    background-image: url(../Images/غروب-الشمس.webp);
+    background-size: cover;
+    animation-name: change2 ;
+    animation-duration: 6s ;
+    animation-iteration-count: 1;
+    animation-delay: 7s ;
+    animation-direction: reverse ; 
+    animation-fill-mode: both ;
+    animation-timing-function: ease-in;
+  
+
+}
+
+@keyframes change2 {
+    0% {
+        left:0px;
+        background-image: url(../Images/غروب-الشمس.webp);
+        background-size: cover; 
+   
+    }
+    25% {
+      
+        background-image: url(../Images/ااا6-5.webp);
+        background-size: cover;
+    }
+    50% {
+
+        background-image: url(../Images/138540271_15733621784011n.jpg);
+        background-size: cover;
+       
+    }
+    75% {
+    
+        background-image: url(../Images/3188-3.jpg);
+        background-size: cover;
+    }
+    100% {
+        background-image: url(../Images/20230103f1c5991ca9554072a3a811cc5a7de764_95bfbb6a-6913-43eb-b0c2-224c725aa52f.jpg);
+        background-size: cover;
+        left:1100px;
+    
+    }
+} 
+
+/* ////////////////////// */
+
+
+.div3{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    position:absolute;
+    margin-top: 510px;
+    animation-name: change3 ;
+    animation-duration: 11s ;
+    animation-iteration-count: 1;
+    animation-delay: 12s ;
+    animation-direction: alternate; 
+    animation-fill-mode: both ;
+    animation-timing-function: ease-in;
+ 
+}
+
+@keyframes change3 {
+    0% {
+        left:0px;
+        background-image: url(../Images/1.jpg);
+        background-size: cover; 
+   
+    }
+    10% {
+      
+        background-image: url(../Images/2.jpg);
+        background-size: cover;
+    }
+    20% {
+
+        background-image: url(../Images/3.jpg);
+        background-size: cover;
+       
+    }
+    30% {
+    
+        background-image: url(../Images/4.jpg);
+        background-size: cover;
+    }
+    40% {
+        background-image: url(../Images/5.jpg);
+        background-size: cover;
+     
+    
+    }
+    50% {
+        background-image: url(../Images/6.jpg);
+        background-size: cover;
+    
+    
+    } 60% {
+        background-image: url(../Images/7.jpg);
+        background-size: cover;
+       
+    
+    }
+    70% {
+        background-image: url(../Images/8.jpg);
+        background-size: cover;
+      
+    
+    }
+    80% {
+        background-image: url(../Images/9.jpg);
+        background-size: cover;
+ 
+    
+    }
+    90% {
+        background-image: url(../Images/10.jpg);
+        background-size: cover;
+    
+    
+    }
+    100% {
+        background-image: url(../Images/11.jpg);
+        background-size: cover;
+        left:1300px;
+    
+    }
+}
+
+
+
+.progress{
+    position:absolute;
+    height: 10px;
+    width: 15%;
+    border: 10px solid #6183f4;
+    border-radius: 8px;
+    margin-top: 1000px;
+    animation-name:progres1 ;
+    animation-duration: 13s ;
+    animation-iteration-count: 1;
+    animation-delay: 34s ;
+    animation-direction: alternate; 
+    animation-fill-mode: both ;
+    animation-timing-function: ease-in; 
+}
+.progress .color{
+    position: absolute;
+    background-color: #aeeef1;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    animation-name:progres ;
+    animation-duration: 13s ;
+    animation-iteration-count: 1;
+    animation-delay: 34s ;
+    animation-direction: alternate; 
+    animation-fill-mode: both ;
+    animation-timing-function: ease-in; 
+}
+.loading0{
+margin-top: 20px;
+opacity: 1;
+animation-name:loading0 ;
+animation-duration: 2s ;
+animation-iteration-count: 1;
+animation-delay: 45s ;
+animation-direction: reverse ; 
+animation-fill-mode: both ;
+animation-timing-function: ease-in;
+    }
+    .loading20{
+    opacity: 1;
+    animation-name:loading20 ;
+    animation-duration: 2s ;
+    animation-iteration-count: 1;
+    animation-delay: 43s ;
+    animation-direction: reverse ; 
+    animation-fill-mode: both ;
+    animation-timing-function: linear;
+    position:absolute;
+    
+        
+    }
+    .loading40{
+        animation-name:loading40 ;
+        animation-duration: 2s ;
+        animation-iteration-count: 1;
+        animation-delay: 41s ;
+        animation-direction: reverse ; 
+        animation-fill-mode: both ;
+        animation-timing-function: linear;
+        position:absolute;
+     opacity: 1;
+    }
+    .loading60{
+        animation-name:loading40 ;
+        animation-duration: 2s ;
+        animation-iteration-count: 1;
+        animation-delay: 39s ;
+        animation-direction: reverse ; 
+        animation-fill-mode: both ;
+        animation-timing-function: linear;
+        position:absolute;
+    opacity: 1 ;
+    }
+
+    .loading80{
+        animation-name:loading80 ;
+        animation-duration: 2s ;
+        animation-iteration-count: 1;
+        animation-delay: 37s ;
+        animation-direction: reverse ; 
+        animation-fill-mode: both ;
+        animation-timing-function: linear;
+        position:absolute;
+        opacity: 1;    
+    }
+    .loading100{
+    animation-name:loading100 ;
+    animation-duration: 2s ;
+    animation-iteration-count: 1;
+    animation-delay: 35s ;
+    animation-direction: reverse ; 
+    animation-fill-mode: both ;
+    animation-timing-function: linear;
+    position:absolute;
+    opacity: 1;            
+    }
+
+
+@keyframes progres{
+        0%{
+          width: 0%;
+        }
+        20%{
+            width: 20%;
+        }
+        40%{
+            width: 40%;
+        }
+        60%{
+            width: 60%;
+        }
+        80%{
+            width: 80%;
+        }
+        100%{
+            width: 100%;
+        }
+
+}
+
+
+@keyframes progres1{
+    0%{
+     left:0px;
+    }
+    100%{
+    left:1250px;
+    }
+
+}
+@keyframes loading0{
+    0%{
+        opacity: 1px;
+      }
+      20%{
+        opacity: 0;
+      }
+      40%{
+        opacity: 0;
+      }
+      60%{
+        opacity: 0;
+      }
+      80%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 0;
+      }
+
+}
+@keyframes loading20{
+    0%{
+        opacity:0;
+      }
+      20%{
+        opacity: 1;
+      }
+      40%{
+        opacity: 0;
+      }
+      60%{
+        opacity: 0;
+      }
+      80%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 0;
+      }
+
+}
+@keyframes loading40{
+    0%{
+        opacity: 0;
+      }
+      20%{
+        opacity: 0;
+      }
+      40%{
+        opacity: 1;
+      }
+      60%{
+        opacity: 0;
+      }
+      80%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 0;
+      }
+
+}
+@keyframes loading60{
+    0%{
+        opacity: 0;
+      }
+      20%{
+        opacity: 0;
+      }
+      40%{
+        opacity: 0;
+      }
+      60%{
+        opacity: 1;
+      }
+      80%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 0;
+      }
+
+}
+
+@keyframes loading80{
+    0%{
+        opacity:0;
+      }
+      20%{
+        opacity: 0;
+      }
+      40%{
+        opacity: 0;
+      }
+      60%{
+        opacity: 0;
+      }
+      80%{
+        opacity: 1;
+      }
+      100%{
+        opacity: 0;
+      }
+}
+
+@keyframes loading100{
+    0%{
+        opacity: 0;
+      }
+      20%{
+        opacity: 0;
+      }
+      40%{
+        opacity: 0;
+      }
+      60%{
+        opacity: 0;
+      }
+      80%{
+        opacity: 0;
+      }
+      100%{
+        opacity: 1px;
+      }
+}
+
+.a{
+    width: 30px;
+    height: 100px;
+    border-radius: 2px;
+    float: left;
+    background-color: #f4a9a9;
+    animation-name: a ;
+    animation-duration: 11s ;
+    animation-iteration-count: 1;
+    animation-delay: 23s ;
+    margin-top: 20px;
+    position: absolute;
+    animation-direction: reverse ; 
+   
+}
+.b{
+    width: 30px;
+    height: 90px;
+    border-radius: 2px;
+    float: left;
+    margin-left:10px ;
+    background-color: #f4a9a9;
+    margin-top: 30px;
+    animation-name: b ;
+    animation-duration: 11s ;
+    animation-iteration-count: 1;
+    animation-delay: 23s ;position: absolute;
+    animation-direction: reverse ; 
+    left: 30px;
+
+}
+.c{
+    width: 30px;
+    height: 80px;
+    border-radius: 2px;
+    float: left;
+    margin-left:10px ;
+    background-color: #f4a9a9;
+    margin-top: 40px;
+    animation-name: c ;
+    animation-duration: 11s ;
+    animation-iteration-count: 1;
+    animation-delay: 23s ;
+  position: absolute;
+  animation-direction: reverse ; 
+  left:70px
+    
+}
+.d{
+    width: 30px;
+    height: 70px;
+    border-radius: 2px;
+    float: left;
+    margin-left:10px ;
+    background-color: #f4a9a9;
+    margin-top: 50px;
+    animation-name: d ;
+    animation-duration: 11s ;
+    animation-iteration-count: 1;
+    animation-delay: 23s ;position: absolute;
+    animation-direction: reverse ; 
+    left:110px;
+  
+}
+.div4{
+    margin-top: 800px;
+    animation-name: change4 ;
+    animation-duration: 11s ;
+    animation-iteration-count: 1;
+    animation-delay: 23s ;
+    animation-direction: alternate; 
+    animation-fill-mode: both ;
+    animation-timing-function: ease-in;
+    position:absolute;
+    
+}
+
+@keyframes a{
+    0%{
+    margin-top: 10px;
+      height: 100px;
+      left:0;
+    }
+    20%{
+        margin-top: 30px;
+        height: 80px;
+    }
+    40%{
+        margin-top: 50px;
+        height: 65px;
+    }
+    60%{
+        margin-top: 70px;
+        height: 40px;
+    }
+    80%{
+        margin-top: 90px;
+        height: 25px;
+    }
+    100%{
+        margin-top: 100px;
+        height: 10px;
+        left:1300px
+    }
+    
+}
+
+@keyframes b{
+    0%{
+        margin-top: 30px;
+        height: 80px;
+        left: 30px;
+      }
+      20%{
+        margin-top: 50px;
+        height: 65px;
+      }
+      40%{
+        margin-top: 70px;
+        height: 40px;
+      }
+      60%{
+        margin-top: 90px;
+        height: 25px;
+      }
+      80%{
+        margin-top: 100px;
+        height: 10px;
+      }
+      100%{
+        margin-top: 10px;
+        height: 100px;
+        left: 1330px;
+      }
+
+}
+
+@keyframes c{
+    0%{
+        margin-top: 50px;
+        height: 60px;
+        left:70px
+      }
+      20%{
+        margin-top: 70px;
+        height: 45px;
+      }
+      40%{
+        margin-top: 90px;
+        height: 20px;
+      }
+      60%{
+        margin-top: 100px;
+        height: 15px;
+      }
+      80%{
+        margin-top: 10px;
+        height: 100px;
+      }
+      100%{
+        margin-top: 30px;
+        height: 85px;
+        left:1370px
+      }
+
+}
+
+@keyframes d{
+    0%{
+        margin-top: 70px;
+        height: 40px;
+        left:110px;
+      }
+      20%{
+        margin-top: 90px;
+          height: 25px;
+      }
+      40%{
+        margin-top: 100px;
+          height: 10px;
+      }
+      60%{
+        margin-top: 10px;
+          height: 100px;
+      }
+      80%{
+        margin-top: 30px;
+          height: 85px;
+      }
+      100%{
+        margin-top: 50px;
+          height: 60px;
+          left:1410px
+      }
+}
+
+
+@keyframes chang4{
+    0%{
+     left: 1300px;
+      }
+      100%{
+      left: 0px;
+      }
+}
+
+
+.div6{
+    width: 130px;
+    height: 130px;
+    border: 1px;
+    background-color: #e8ebeb;
+    animation-duration: 6s ;
+    animation-iteration-count: 1;
+    animation-delay: 50s ;
+    animation-direction: reverse ; 
+    animation-fill-mode: both ;
+    animation-timing-function: linear;
+    position:absolute;
+    animation-name:change6 ;
+    margin-top: 1300px;
+    align-items: center;
+}
+
+@keyframes change6{
+    0%{
+        width: 110px;
+        height: 110px;
+        background-color: #c3ebed;
+        left:0;
+      }
+      20%{
+        width: 15;
+    height: 15;
+    background-color: #eff5f6;
+      }
+      40%{
+        width: 120px;
+        height: 120px;
+        background-color: #505859;
+      }
+      60%{
+        width: 125px;
+    height: 125px;
+    background-color: #085f63;
+      }
+      80%{
+        width: 70px;
+        height: 70px;
+        background-color: #a5d9dc;
+      }
+      100%{
+        width: 90px;
+        height: 90px;
+        background-color: #828c8d;
+        left: 1400px;
+      }
+}
+
+
+
+
